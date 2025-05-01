@@ -40,7 +40,7 @@ body {
   flex-direction: column;
   padding-top: 32px;
   font-size: clamp(8px, 1.2vw + 1.2vh, 14px);
-  gap: 15px;
+  gap: 10px;
   transition: border-color 0.3s ease;
 }
 
@@ -111,6 +111,7 @@ a {
   color: white;
   border-radius: 10px;
   border-color: #3a5b22;
+  margin-top: 20px;
 }
 
 .line-container {
@@ -205,4 +206,18 @@ span {
 
 .sign a {
   color: #0f3dde;
+}
+
+.error_name,
+.error_email,
+.error_password,
+.terms-error {
+  padding-top: 5px;
+  display: block; /* span becomes block to control layout */
+  height: 14px; /* reserve fixed space for message */
+  font-size: 10px;
+  color: red;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
