@@ -1,0 +1,208 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  box-sizing: border-box;
+}
+
+.section1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_up {
+  width: 26vw;
+  height: 67vh;
+  font-size: clamp(20px, 1.5vw + 1.5vh, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+}
+
+.section2 {
+  background-image: url(./images/leaf.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  font-size: clamp(8px, 1.2vw + 1.2vh, 14px);
+  gap: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.form input {
+  padding: 8.5px;
+  color: #3a5b22;
+}
+
+.form input:focus {
+  border-color: #3a5b22;
+  outline: none;
+  padding: 8.5px;
+  color: #3a5b22;
+}
+
+.form input::placeholder {
+  color: #d9d9d9; /* Light gray color for the placeholder */
+  font-weight: 300; /* Light font weight for the placeholder */
+  font-size: 10px;
+  font-family: "poppins";
+  padding: 8.5px;
+}
+
+.name {
+  width: 26vw;
+  height: 32px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 10px;
+}
+.email {
+  width: 26vw;
+  height: 32px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 10px;
+}
+.password {
+  width: 26vw;
+  height: 32px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.terms {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  accent-color: #3a5b22;
+  justify-content: start;
+}
+
+a {
+  color: black;
+}
+
+.button {
+  background-color: #3a5b22;
+  width: 26vw;
+  height: 35px;
+  color: white;
+  border-radius: 10px;
+  border-color: #3a5b22;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.line {
+  border: 0;
+  border-top: 1px solid #d9d9d9; /* Thin line */
+  width: 240px; /* Width of the lines */
+  border-color: #d9d9d9;
+}
+
+span {
+  font-size: 9px;
+  color: #333;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.accounts {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.google {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 10px;
+  width: 18vw;
+  height: 3.9vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.google_content {
+  font-size: 0.8vw;
+}
+
+.google_image {
+  width: 1.5vw;
+  height: 1.5vh;
+  padding-bottom: 4px;
+}
+
+.apple {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 10px;
+  width: 18vw;
+  height: 3.9vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple_image {
+  width: 1.5vw;
+  height: 1.5vh;
+  padding-bottom: 4px;
+}
+
+.apple_content {
+  font-size: 0.8vw;
+}
+
+.account1 {
+  font-size: 0.75vw;
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+}
+
+.sign {
+  font-size: 0.75vw;
+  margin-left: 6px;
+}
+
+.sign a {
+  color: #0f3dde;
+}
