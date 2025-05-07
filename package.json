@@ -1,0 +1,23 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "Decided to replicate a functional and interactive figma design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mari1797/Desktop_figma_design.git"
+  },
+  "keywords": [],
+  "author": "Marian Ofure Isidahomen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mari1797/Desktop_figma_design/issues"
+  },
+  "homepage": "https://github.com/Mari1797/Desktop_figma_design#readme",
+  "dependencies": {
+    "firebase": "^11.6.1"
+  }
+}

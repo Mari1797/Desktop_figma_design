@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  box-sizing: border-box;
+}
+
+.section1 {
+  background-color: #ffffff;
+}
+
+.section2 {
+  background-image: url(../images/leaf.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome_container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.welcome {
+  font-size: clamp(20px, 1.5vw + 1.5vh, 32px);
+}
+
+.login {
+  padding: 230px 175px;
+}

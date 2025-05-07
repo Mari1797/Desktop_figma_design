@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css" />
+    <script src="./Login.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section1">
+        <div class="login">
+          <div class="welcome_container">
+            <div class="welcome">Welcome</div>
+            <div>Enter your credentials to access your account</div>
+          </div>
+          <div class="form">
+            <div class="email_container">
+              <label for="fname">Email address <br /> </label>
+              <input
+                class="email"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <span class="error_email"></span>
+            </div>
+            <div class="password">
+              <label for="fname">Password <br /> </label>
+              <input
+                class="password"
+                type="password"
+                placeholder="Enter your password"
+              />
+              <span class="error_password"></span>
+            </div>
+            <div class="remember_container">
+              <label class="terms">
+                <input type="checkbox" name="terms" />
+                <span>
+                  I agree to the
+                  <a class="link" href="#">terms and policy</a>
+                </span>
+              </label>
+            </div>
+            <button class="btn">Log in</button>
+          </div>
+          <div class="line-container">
+            <hr class="line" />
+            <span>or</span>
+            <hr class="line" />
+          </div>
+          <div class="accounts">
+            <div id="google-btn" class="google">
+              <div class="google_icon">
+                <img class="google_image" src="./icons/google-icon-logo.svg" />
+              </div>
+              <div class="google_content">Sign in with google</div>
+            </div>
+            <div class="apple">
+              <div class="apple_icon">
+                <img
+                  class="apple_image"
+                  src="./icons/icons8-apple-logo 1.svg"
+                />
+              </div>
+              <div class="apple_content">Sign in with apple</div>
+            </div>
+          </div>
+          <div class="account1">
+            Have an account?<br /><span class="sign"
+              ><a href="./Login/Login.html">Sign in</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="section2"></div>
+    </div>
+  </body>
+</html>

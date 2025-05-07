@@ -1,12 +1,9 @@
 {
   "folders": [
-	{
-		"path": ".."
-	},
-	{
-		"path": "../../Downloads/pages"
-	}
-],
+    {
+      "path": ".."
+    }
+  ],
   "settings": {
     "liveServer.settings.multiRootWorkspaceName": "Sign_in and Login_Page"
   }
